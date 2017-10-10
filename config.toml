@@ -177,7 +177,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Home"
-  url = "/index.html#about"
+  url = "#about"
   weight = 1
 
 [[menu.main]]
@@ -203,13 +203,13 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Recent publications"
   parent = "news"
-  url = "/index.html#publications_selected"
+  url = "#publications_selected"
   weight = 1
 
 [[menu.main]]
   name = "Recent/Upcoming talks"
   parent = "news"
-  url = "/index.html#talks"
+  url = "#talks"
   weight = 2
 
 
@@ -227,7 +227,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Contact"
   parent = "more"
-  url = "/index.html#contact"
+  url = "#contact"
   weight = 2
 
 # Taxonomies.

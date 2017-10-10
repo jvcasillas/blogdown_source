@@ -43,7 +43,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "Rutgers University", url = "http://span-port.rutgers.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "jvc2016.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "jvc2016.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "joseph.casillas@rutgers.edu"
   address = "Rutgers University - Academic Building, Room 5174, 15 Seminary place, New Brunswick, NJ, 08901, USA"
   office_hours = "Email for appointment"

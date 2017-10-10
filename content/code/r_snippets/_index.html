@@ -1,0 +1,56 @@
+---
+title: "R-snippets"
+output:
+  html_document:
+    theme: readable
+    highlight: tango
+    include:
+      before_body: ../../site_libs/includes/before_body.html
+      in_header: ../../site_libs/includes/in_header.html
+      after_body: ../../site_libs/includes/after_body.html
+    css: ../../site_libs/assets/css/style.css
+---
+
+
+
+<p>
+</p>
+<iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=R-snippets&amp;type=watch&amp;count=true&amp;size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true">
+</iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&amp;repo=R-snippets&amp;type=fork&amp;count=true&amp;size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true">
+</iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&amp;type=follow&amp;count=true&amp;size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true">
+</iframe>
+<p>
+</p>
+<p>This repository is a collection of snippets that I use in <a href="http://www.sublimetext.com">SublimeText</a> for doing statistical analysis in <a href="http://www.r-project.org">R</a>. The goal is straightforward: document the code that I use most often while doing linguistic research and make it readily available (and understandable) to other linguists. If you are interested in helping see the github <a href="https://github.com/jvcasillas/R-snippets">repository</a>. To install R-snippets see the <a href="https://sublime.wbond.net/packages/R-snippets">package control</a> page. To use a snippet, type the trigger and hit the tab key. For example, typing <code>lm</code> brings up the following window:</p>
+<p><img id='rcorners' width="90%" src="../../img/thumbnails/lm2.png" alt="lm image"></p>
+<p>Selecting <code>Random slope and random intercept model</code> expands to…</p>
+<pre class="r"><code># load lme4 for mixed models
+library(lme4)
+
+# random intercept and random slope model
+modelName = lmer(DV ~ fixedFactor1 +* fixedFactor2 + (1 + randomSlope|randomInt), data=df)
+modelName
+
+hist(residuals(modelName))
+qqnorm(residuals(modelName))
+qqline(residuals(modelName))</code></pre>
+<p>Main triggers:</p>
+<ul>
+<li>“plot”: templates for plotting in base R</li>
+<li>“edit”: options useful for data cleansing and saving</li>
+<li>“desc”: descriptive statistics of data</li>
+<li>“ttest”: distinct types of t-test</li>
+<li>“aov”: distinct analysis of variance models</li>
+<li>“lm”: linear and logistic regression</li>
+<li>“lmem”: linear mixed effects models</li>
+</ul>
+<p>Extras:</p>
+<ul>
+<li>“subset”: make subsets of a DF</li>
+<li>“read”: read/load/install data/packages into R</li>
+<li>“save”: save plots, dfs, tables, etc.</li>
+<li>“tikz”: template for creating R plots in LaTeX</li>
+</ul>
+<!-- links -->

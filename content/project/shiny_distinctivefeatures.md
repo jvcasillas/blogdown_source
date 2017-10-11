@@ -6,7 +6,7 @@ date = "2016-04-27"
 title = "Spanish allophones and distinctive features"
 
 # Project summary to display on homepage.
-summary = "A shiny web app built in R for teaching the distictive features of Spanish speech souds."
+summary = "A shiny web app built in R for teaching the distinctive features of Spanish speech sounds."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "thumbnails/distinctivefeatures.png"

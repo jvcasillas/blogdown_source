@@ -39,7 +39,8 @@ weight = 5
 
 ### About 
 
-I am an Assistant Professor of Spanish Linguistics in the Spanish and Portuguese Department at Rutgers University, New Brunswick. My main interests are in 
+I am an Assistant Professor of Hispanic Linguistics in the Spanish and Portuguese 
+Department at Rutgers University, New Brunswick. My main interests are in 
 phonetics, laboratory phonology, and second language acquisition. A principle 
 aim of my research is to better understand the relationship between language use 
 and sound representation in the mind, as well as the structure of sound systems 

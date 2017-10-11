@@ -38,7 +38,7 @@ filter_default = 0
   tag = ".linguistics"
 
 [[filter]]
-  name = "Statistics"
+  name = "Stats"
   tag = ".statistics"
 
 [[filter]]

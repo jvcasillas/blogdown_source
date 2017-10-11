@@ -4,14 +4,17 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Contact"
+title = "**Contact**"
 subtitle = ""
 widget = "contact"
 
 # Order that this section will appear in.
-weight = 50
+weight = 60
 
 # Automatically link email and phone?
 autolink = true
 
 +++
+
+You can set up an appointment to meet with me <a href="https://jvcasillas.youcanbook.me/?noframe=true&skipHeaderFooter=true" data-ycbm-modal="true">here</a> 
+or use one of the methods below.

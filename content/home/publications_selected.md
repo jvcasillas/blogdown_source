@@ -6,7 +6,7 @@
 date = 2016-04-20
 draft = false
 
-title = "Recent Publications"
+title = "**Recent Publications**"
 subtitle = ""
 widget = "publications_selected"
 

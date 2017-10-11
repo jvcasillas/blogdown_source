@@ -4,7 +4,7 @@
 date = 2017-09-20
 draft = false
 
-title = "Tags"
+title = "**Tags**"
 subtitle = ""
 widget = "tag_cloud"
 

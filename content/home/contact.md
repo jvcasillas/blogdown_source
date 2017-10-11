@@ -16,5 +16,6 @@ autolink = true
 
 +++
 
-You can set up an appointment to meet with me <a href="https://jvcasillas.youcanbook.me/?noframe=true&skipHeaderFooter=true" data-ycbm-modal="false">here</a> 
+You can set up an appointment to meet with me 
+[here](https://jvcasillas.youcanbook.me/?noframe=true&skipHeaderFooter=true) 
 or use one of the methods below.

@@ -7,7 +7,7 @@ event = "Hispanic Linguistics Symposium"
 event_url = "http://2017-hls.weebly.com"
 location = "Texas Tech University, Lubbock, TX, U.S.A."
 
-selected = false
+selected = true
 math = true
 
 url_pdf = ""

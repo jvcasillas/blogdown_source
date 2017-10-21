@@ -17,7 +17,7 @@ weight = 10
 #   0 = Simple
 #   1 = Classic
 #   2 = Detailed
-list_format = 1
+list_format = 0
 
 # Filter by publication type.
 # -1: Any

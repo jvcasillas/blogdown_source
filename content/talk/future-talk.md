@@ -7,7 +7,7 @@ event = "Invited workshop"
 event_url = ""
 location = "Washington College, Maryland, U.S.A."
 
-selected = false
+selected = true
 math = true
 
 url_pdf = ""

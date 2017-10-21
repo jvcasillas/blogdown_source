@@ -7,7 +7,7 @@ event = "47th Linguistics Symposium on Romance Languages"
 event_url = ""
 location = "University of Deleware, Newark, DE, U.S.A."
 
-selected = false
+selected = true
 math = true
 
 url_pdf = ""

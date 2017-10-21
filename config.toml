@@ -6,6 +6,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 paginate = 10
+preserveTaxonomyNames = true
 publishDir = "../jvcasillas.github.io"
 
 # Enable comments by entering your Disqus shortname
@@ -23,6 +24,8 @@ defaultContentLanguageInSubdir = false
 
 [blackfriday]
   hrefTargetBlank = true
+  fractions = true
+  smartypants = true
 
 [params]
   # Color theme.
@@ -55,12 +58,35 @@ defaultContentLanguageInSubdir = false
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
 
+
+  # Diplay a logo in navigation bar rather than title (optional).
+  #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
+  logo = ""
+
+
+
+  # Enable Google Maps by entering your API key, latitude, and longitude.
+  #   Get your API key: https://developers.google.com/maps/documentation/javascript/get-api-key
+  #   Get your coords: Right-click place on Google Maps. Select 'What's here?'. At the bottom is a card with the coords.
+  #   Disable Google Maps by clearing all three options to "".
+  google_maps_api_key = "AIzaSyAkgc2CvwbyGws9P-sEPK9BAdGWmIK_dGg"
+  latitude = "40.501866"
+  longitude = "-74.448128"
+
+
+
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "Jan 2, 2006"
 
   # Show estimated reading time for posts?
-  reading_time = false
+  reading_time = true
+
+  # Display comment count? Requires commenting to be enabled.
+  comment_count = true
+
+  # Display section pager for posts?
+  section_pager = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -187,12 +213,12 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Code"
-  url = "#projects"
+  url = "/code/index.html"
   weight = 3
 
 [[menu.main]]
   name = "Teaching"
-  url = "#teaching"
+  url = "/teaching/index.html"
   weight = 4
 
 [[menu.main]]

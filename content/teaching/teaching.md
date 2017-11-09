@@ -40,7 +40,7 @@ weight = 40
 
 - Spanish phonetics/phonology
 - The phonetics/phonology of bilingualism
-- Research methods
+- Data science for linguistics
 
 
 ### Workshops

@@ -18,7 +18,7 @@ Afterwards, update the following:
 
 
 
-```{r, eval=TRUE, echo=FALSE, cache=FALSE}
+```{r, eval=TRUE, echo=FALSE, cache=FALSE, warning=FALSE}
 library(RefManageR)
 
 fileUrl <- "https://raw.githubusercontent.com/jvcasillas/mybib/master/publicationsCVclean.bib"

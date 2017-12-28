@@ -7,7 +7,7 @@ summary: "Tutorial for creating HTML presentations using R and slidify."
 ---
 
 
-<meta http-equiv="refresh" content="0;url= http://www.jvcasillas.com/slidify_tutorial/"/>
+<meta http-equiv="refresh" content="0; url='http://www.jvcasillas.com/slidify_tutorial/'"/>
 
 
 <!--  add lines here -->

@@ -7,4 +7,4 @@ summary: "Walkthrough for incorporating HTML widgets into an Rmarkdown document.
 ---
 
 
-<meta http-equiv="refresh" content="0;url= http://www.jvcasillas.com/html_widgets/index.html"/>
+<meta http-equiv="refresh" content="0; url='http://www.jvcasillas.com/html_widgets/index.html'"/>

@@ -11,4 +11,4 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 
 
-<meta http-equiv="refresh" content="0;url= http://www.jvcasillas.com/tidyr_tutorial/"/>
+<meta http-equiv="refresh" content="0; url='http://www.jvcasillas.com/tidyr_tutorial/'"/>

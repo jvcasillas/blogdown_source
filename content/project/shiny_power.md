@@ -16,7 +16,7 @@ image_preview = "thumbnails/power.png"
 tags = ["r", "statistics", "programming", "teaching"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://jvcasill.shinyapps.io/shiny_power/"
+external_link = "https://jvcasillas.shinyapps.io/shiny_power/"
 
 # Does the project detail page use math formatting?
 math = false

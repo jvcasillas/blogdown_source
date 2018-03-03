@@ -16,7 +16,7 @@ image_preview = "thumbnails/bivarreg.png"
 tags = ["r", "statistics", "programming", "teaching"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://jvcasill.shinyapps.io/shiny_bivariate_regression/"
+external_link = "https://jvcasillas.shinyapps.io/shiny_bivariate_regression/"
 
 # Does the project detail page use math formatting?
 math = false

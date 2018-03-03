@@ -16,7 +16,7 @@ image_preview = "thumbnails/crossover.png"
 tags = ["r", "statistics", "programming", "linguistics", "teaching"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://jvcasill.shinyapps.io/shiny_crossOver/"
+external_link = "https://jvcasillas.shinyapps.io/shiny_crossOver/"
 
 # Does the project detail page use math formatting?
 math = false

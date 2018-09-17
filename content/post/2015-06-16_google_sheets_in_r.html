@@ -7,8 +7,15 @@ tags: ["R", "webscraping", "google sheets"]
 
 
 
-<p>Google Forms offers a convenient way to collect data online. It is particularly useful because you can embed the form in a webpage, link the results with a spreadsheet and publish the results online. This post shows how to scrape the data from the spreadsheet (google form) in <code>r</code> using the package <code>RCurl</code>. You should be able to follow along by copying and pasting the code into an R session.</p>
-<p>Ideally you can use this method once you have collected data using a google form. For our purposes I just created a google sheet and I will scrape the data from there.</p>
+<p>Google Forms offers a convenient way to collect data online. It is particularly
+useful because you can embed the form in a webpage, link the results with a
+spreadsheet and publish the results online. This post shows how to scrape the
+data from the spreadsheet (google form) in <code>r</code> using the package <code>RCurl</code>. You
+should be able to follow along by copying and pasting the code into an R
+session.</p>
+<p>Ideally you can use this method once you have collected data using a google
+form. For our purposes I just created a google sheet and I will scrape the data
+from there.</p>
 <div id="get-some-data" class="section level3">
 <h3>Get some data</h3>
 <p>To show how this works, I simulated some data with the following code:</p>
@@ -21,16 +28,19 @@ df &lt;- data.frame(
     group = gl(2, 15, labels = c(&quot;mono&quot;, &quot;bi&quot;)), 
     score = c(rnorm(15, 87, 8), rnorm(15, 94, 3))
     )</code></pre>
-<p>I then copy and pasted the data frame into a google sheet. To do this, open google drive and create a new sheet.</p>
+<p>I then copy and pasted the data frame into a google sheet. To do this, open
+google drive and create a new sheet.</p>
 <p><img width="400" src="./img/data.png"></p>
-<p>Once you have some data in a sheet you need to do a few things before you are ready to fire up R.</p>
+<p>Once you have some data in a sheet you
+need to do a few things before you are ready to fire up R.</p>
 <p>First, you need to publish your sheet to the web (File &gt; Publish to the web…):</p>
 <p><img width="400" src="./img/publish.png"></p>
 <p>Publish the sheet and copy the public link from the window.</p>
 <p><img width="400" src="./img/link.png"></p>
 <p>As you can see, my link is:</p>
 <pre><code>https://docs.google.com/spreadsheets/d/1AqS_DAThPUJuS2L2E-S5X7fM1kpIdhXQdBDZUyt-bWM/pubhtml</code></pre>
-<p>Copy your link and save it somewhere. We will need it in just a second.</p>
+<p>Copy your link and save it somewhere. We will
+need it in just a second.</p>
 <p>Now we’re ready for R. Here are the packages I used:</p>
 <pre class="r"><code># load libraries
 
@@ -39,11 +49,17 @@ library(ggplot2); library(DT); library(pander)</code></pre>
 </div>
 <div id="scrape" class="section level3">
 <h3>Scrape</h3>
-<p>We will use the <code>RCurl</code> package to scrape the data. The command we need is <code>getForm()</code>. The first arguement represents the URI to which the form is posted. You can just use the one shown below for a google sheet. The important part here is the <code>key</code> arguement. You need to copy it from the link you saved above. The key can be found in the last part of the link. Here is my link again:</p>
+<p>We will use the <code>RCurl</code> package to scrape the data. The command we need is
+<code>getForm()</code>. The first arguement represents the URI to which the form is posted.
+You can just use the one shown below for a google sheet. The important part here
+is the <code>key</code> arguement. You need to copy it from the link you saved above. The
+key can be found in the last part of the link. Here is my link again:</p>
 <pre class="r"><code>https://docs.google.com/spreadsheets/d/1AqS_DAThPUJuS2L2E-S5X7fM1kpIdhXQdBDZUyt-bWM/pubhtml</code></pre>
 <p>Specifically we want:</p>
 <pre><code>1AqS_DAThPUJuS2L2E-S5X7fM1kpIdhXQdBDZUyt-bWM</code></pre>
-<p>Therefore we can delete <code>https://docs.google.com/spreadsheets/d/</code> from the beginning, as well as <code>/pubhtml</code> from the end. Check the <code>key</code> arguement below. Finally, we use the <code>read.csv()</code> command to import the data.</p>
+<p>Therefore we can delete <code>https://docs.google.com/spreadsheets/d/</code> from the
+beginning, as well as <code>/pubhtml</code> from the end. Check the <code>key</code> arguement below.
+Finally, we use the <code>read.csv()</code> command to import the data.</p>
 <pre class="r"><code># scrape data
 
 sheet = getForm(&quot;https://spreadsheets.google.com/spreadsheet/pub&quot;, 

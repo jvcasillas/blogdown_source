@@ -1,0 +1,70 @@
+---
+title: "Setting up a whisper room sound booth"
+date: 2018-09-16T21:13:14-05:00
+categories: ["Linguistics"]
+tags: ["Linguistics", "Phonetics", "Equipment", "Whisper room", "Sound booth"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+
+```{r, echo=F}
+library("htmltools")
+library("bsplus")
+```
+
+
+## Packaging
+
+```{r, echo=F}
+bs_carousel(id = "soundbooth_packaging") %>%
+  bs_set_data(interval = FALSE) %>%
+  bs_append(content = bs_carousel_image(src = "./img/01.jpeg")) %>%
+  bs_append(content = bs_carousel_image(src = "./img/02.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/03.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/04.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/05.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/06.jpeg")) 
+```
+
+## Assembly
+
+```{r, echo=F}
+bs_carousel(id = "soundbooth_assembly") %>%
+  bs_set_data(interval = FALSE) %>%
+  bs_append(content = bs_carousel_image(src = "./img/07.jpeg")) %>%
+  #bs_append(content = bs_carousel_image(src = "./img/08.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/09.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/10.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/11.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/12.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/13.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/14.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/15.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/16.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/17.jpeg")) 
+```
+
+## Aftermath
+
+```{r, echo=F}
+bs_carousel(id = "soundbooth_cleanup") %>%
+  bs_set_data(interval = FALSE) %>%
+  bs_append(content = bs_carousel_image(src = "./img/18.jpeg")) %>%
+  bs_append(content = bs_carousel_image(src = "./img/19.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/20.jpeg")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/21.jpeg")) 
+```
+
+## Vents
+
+```{r, echo=F}
+bs_carousel(id = "soundbooth_walkthrough") %>%
+  bs_set_data(interval = FALSE) %>%
+  bs_append(content = bs_carousel_image(src = "./vids/vents.mov")) %>%
+  bs_append(content = bs_carousel_image(src = "./vids/inside.mov")) 
+```
+
+</br>

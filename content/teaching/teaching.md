@@ -41,6 +41,7 @@ weight = 40
 - Spanish phonetics/phonology
 - The phonetics/phonology of bilingualism
 - Data science for linguistics
+- Research methods: Open science and reproducible research in Linguistics
 
 
 ### Workshops

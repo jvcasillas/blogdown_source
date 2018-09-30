@@ -58,7 +58,7 @@ bs_carousel(id = "soundbooth_cleanup") %>%
   bs_append(content = bs_carousel_image(src = "./img/21.jpeg")) 
 ```
 
-## Vents
+## Walkthrough
 
 ```{r, echo=F}
 bs_carousel(id = "soundbooth_walkthrough") %>%

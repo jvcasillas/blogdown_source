@@ -1,6 +1,6 @@
 +++
 date = "2017-10-27T00:00:00"
-title = "Best practices and tools for pycholinguistic research with bilinguals: A gentle introduction to PsychoPy2"
+title = "The use of lexical stress and vowel duration for morphological anticipation in L2 learners of Spanish"
 abstract = ""
 abstract_short = ""
 event = "Hispanic Linguistics Symposium"

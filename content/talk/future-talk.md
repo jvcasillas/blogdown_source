@@ -1,11 +1,11 @@
 +++
 date = "2017-11-15T00:00:00"
-title = "La pronunciación y variación del español en el mundo hispánico"
-abstract = "En este taller haremos un breve repaso de la variación dialectal que existe en el mundo hispánico. Destacaremos algunos de los fenómenos fonéticos que sirven para reconocer las distintas variedades del español y veremos cómo se puede usar este conocimiento para mejorar la pronunciación del español como L2. No se requiere conocimiento lingüístico previo."
+title = "Syllabic Affiliation of Prevocalic Glides in {S}onoran {S}panish: Dialectal variation in syllabic affiliation"
+abstract = ""
 abstract_short = ""
-event = "Invited workshop"
-event_url = ""
-location = "Washington College, Maryland, U.S.A."
+event = "Hispanic Linguistics Symposium"
+event_url = "https://sites.google.com/view/hls-2018/home"
+location = "University of Texas at Austin, Austin, TX, U.S.A."
 
 selected = true
 math = true

@@ -1,17 +1,17 @@
 +++
 date = "2017-04-13T00:00:00"
-title = "The longitudinal development of fine-phonetic detail: Production and perception of Spanish stops in a stateside immersion context"
+title = "Technology for teaching: Using Praat to teach {L2} pronunciation"
 abstract = ""
 abstract_short = ""
-event = "47th Linguistics Symposium on Romance Languages"
+event = "Invited Guest Lecture"
 event_url = ""
-location = "University of Deleware, Newark, DE, U.S.A."
+location = "Middlebury College Language School, Middlebury, VT, U.S.A."
 
 selected = true
 math = true
 
 url_pdf = ""
-url_slides = "" # http://www.jvcasillas.com/LSLR_2017/slides/html/index.html
+url_slides = "" 
 url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).

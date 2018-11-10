@@ -21,12 +21,12 @@ library("bsplus")
 ```{r, echo=F}
 bs_carousel(id = "soundbooth_packaging") %>%
   bs_set_data(interval = FALSE) %>%
-  bs_append(content = bs_carousel_image(src = "./img/01.jpeg")) %>%
-  bs_append(content = bs_carousel_image(src = "./img/02.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/03.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/04.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/05.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/06.jpeg")) 
+  bs_append(content = bs_carousel_image(src = "./img/01.png")) %>%
+  bs_append(content = bs_carousel_image(src = "./img/02.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/03.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/04.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/05.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/06.png")) 
 ```
 
 ## Assembly
@@ -34,17 +34,17 @@ bs_carousel(id = "soundbooth_packaging") %>%
 ```{r, echo=F}
 bs_carousel(id = "soundbooth_assembly") %>%
   bs_set_data(interval = FALSE) %>%
-  bs_append(content = bs_carousel_image(src = "./img/07.jpeg")) %>%
-  #bs_append(content = bs_carousel_image(src = "./img/08.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/09.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/10.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/11.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/12.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/13.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/14.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/15.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/16.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/17.jpeg")) 
+  bs_append(content = bs_carousel_image(src = "./img/07.png")) %>%
+  #bs_append(content = bs_carousel_image(src = "./img/08.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/09.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/10.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/11.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/12.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/13.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/14.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/15.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/16.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/17.png")) 
 ```
 
 ## Aftermath
@@ -52,10 +52,10 @@ bs_carousel(id = "soundbooth_assembly") %>%
 ```{r, echo=F}
 bs_carousel(id = "soundbooth_cleanup") %>%
   bs_set_data(interval = FALSE) %>%
-  bs_append(content = bs_carousel_image(src = "./img/18.jpeg")) %>%
-  bs_append(content = bs_carousel_image(src = "./img/19.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/20.jpeg")) %>% 
-  bs_append(content = bs_carousel_image(src = "./img/21.jpeg")) 
+  bs_append(content = bs_carousel_image(src = "./img/18.png")) %>%
+  bs_append(content = bs_carousel_image(src = "./img/19.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/20.png")) %>% 
+  bs_append(content = bs_carousel_image(src = "./img/21.png")) 
 ```
 
 ## Walkthrough

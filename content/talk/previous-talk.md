@@ -1,6 +1,6 @@
 +++
 date = "2017-04-13T00:00:00"
-title = "Technology for teaching: Using Praat to teach {L2} pronunciation"
+title = "Technology for teaching: Using Praat to teach L2 pronunciation"
 abstract = ""
 abstract_short = ""
 event = "Invited Guest Lecture"

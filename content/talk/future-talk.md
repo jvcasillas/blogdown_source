@@ -1,6 +1,6 @@
 +++
-date = "2017-11-15T00:00:00"
-title = "Syllabic Affiliation of Prevocalic Glides in {S}onoran {S}panish: Dialectal variation in syllabic affiliation"
+date = "2018-10-27T00:00:00"
+title = "Syllabic Affiliation of Prevocalic Glides in Sonoran Spanish: Dialectal variation in syllabic affiliation"
 abstract = ""
 abstract_short = ""
 event = "Hispanic Linguistics Symposium"

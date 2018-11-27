@@ -1,13 +1,12 @@
 +++
 # Recent Posts widget.
 # This widget displays recent posts from `content/post/`.
-
-date = "2016-04-20T00:00:00"
-draft = false
+widget = "posts"
+active = true
+date = 2016-04-20T00:00:00
 
 title = "Recent Posts"
 subtitle = ""
-widget = "posts"
 
 # Order that this section will appear in.
 weight = 40
@@ -21,5 +20,10 @@ tags_exclude = []
 # Number of posts to list.
 count = 5
 
+# List format.
+#   0 = Simple
+#   1 = Detailed
+#   2 = Stream
+list_format = 2
 +++
 

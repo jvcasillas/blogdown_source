@@ -1,12 +1,11 @@
 +++
 # Tag Cloud widget.
-
-date = 2017-09-20
-draft = false
+widget = "tag_cloud"
+active = true
+date = 2017-09-20T00:00:00
 
 title = "Tags"
 subtitle = ""
-widget = "tag_cloud"
 
 # Order that this section will appear in.
 weight = 65

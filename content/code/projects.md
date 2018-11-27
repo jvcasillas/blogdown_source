@@ -1,21 +1,32 @@
 +++
 # Projects widget.
 # This widget displays all projects from `content/project/`.
-
+widget = "projects"
+active = true
 date = "2016-04-20T00:00:00"
-draft = false
 
 title = "**Code**"
 subtitle = "Here are a few of the projects I have been working on."
-widget = "projects"
 
 # Order that this section will appear in.
 weight = 30
 
+# Content.
+# Display content from the following folder.
+# For example, `folder = "project"` displays content from `content/project/`.
+folder = "project"
+
 # View.
 # Customize how projects are displayed.
-# Legend: 0 = list, 1 = cards.
-view = 1
+# Legend: 0 = list, 1 = cards, 2 = showcase
+view = 2
+
+# Widget layout
+# Legend: 0 = two columns (default), 1 = single column
+widget_layout = 0
+
+# For Showcase view, flip alternate rows?
+flip_alt_rows = true
 
 # Filter toolbar.
 
@@ -23,7 +34,8 @@ view = 1
 filter_default = 0
 
 # Add or remove as many filters (`[[filter]]` instances) as you like.
-# Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
+# To show all items, set `tag` to "*".
+# To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
   name = "All"
@@ -31,18 +43,18 @@ filter_default = 0
   
 [[filter]]
   name = "R"
-  tag = ".r"
+  tag = "r"
 
 [[filter]]
   name = "Linguistics"
-  tag = ".linguistics"
+  tag = "linguistics"
 
 [[filter]]
   name = "Stats"
-  tag = ".statistics"
+  tag = "statistics"
 
 [[filter]]
   name = "Teaching"
-  tag = ".teaching"
+  tag = "teaching"
 
 +++

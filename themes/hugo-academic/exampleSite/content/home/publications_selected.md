@@ -2,13 +2,12 @@
 # Selected Publications widget.
 # This widget displays publications from `content/publication/` which have
 # `selected = true` in their `+++` front matter.
-
-date = 2016-04-20
-draft = false
+widget = "publications_selected"
+active = true
+date = 2016-04-20T00:00:00
 
 title = "Selected Publications"
 subtitle = ""
-widget = "publications_selected"
 
 # Order that this section will appear in.
 weight = 10
@@ -18,6 +17,7 @@ weight = 10
 #   1 = Detailed
 #   2 = APA
 #   3 = MLA
+#   4 = Stream
 list_format = 1
 
 # Filter by publication type.

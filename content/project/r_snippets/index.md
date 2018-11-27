@@ -41,7 +41,9 @@ math = true
 [image]
   # Caption (optional)
   caption = "R-Snippets"
-  
+
+  preview_only = true
+
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Top"

@@ -1,0 +1,79 @@
+---
+title: "Research"
+---
+
+
+<!-- 
+Updating the bib:
+    - must update by hand the file publicationsCVclean.bib in mybib repo
+    - once updated, below code downloads current version and loads into R
+    - must reference relevant article in relevant pane (publications or presentations)
+Afterwards, update the following:
+    - Your CV
+    - Research Gate
+    - Google scholar
+-->
+
+
+
+
+
+```{r, eval=T, echo=F, cache=F, warning=F, message=F}
+library(RefManageR)
+library(here)
+
+# Url to github repo
+fileUrl <- "https://raw.githubusercontent.com/jvcasillas/mybib/master/publicationsCVclean.bib"
+
+# Download .bib file
+download.file(fileUrl,
+  destfile = here("static", "site_libs", "bib", "publicationsCVclean.bib"),
+  method = "curl")
+
+# Load bib
+bib <- ReadBib(
+  here("static", "site_libs", "bib", "publicationsCVclean.bib"), check = FALSE)
+
+# Set bib options
+BibOptions(bib.style = "authoryear", style = "html", max.names = 10, 
+           first.inits = TRUE, check.entries = FALSE)
+```
+
+
+
+
+
+<p></p>
+<div class="tabbable">
+<ul class="nav nav-tabs nav-justified" id="myTab">
+<li class="active">
+  <a href="#overview" data-toggle="tab">Overview </a> |&nbsp;
+</li>
+<li class="">
+  <a href="#projects" data-toggle="tab">Projects </a> |&nbsp;
+</li>
+<li class="">
+  <a href="#publications" data-toggle="tab"> Publications</a> |&nbsp;
+</li>
+<li class="">
+  <a href="#presentations" data-toggle="tab"> Presentations</a>
+</li>
+</ul>
+
+ <div class="tab-content">
+
+```{r, child='./assets/overview'}
+```
+
+```{r, child='./assets/projects', cache=F}
+```
+
+```{r, child='./assets/publications', cache=F}
+```
+
+```{r, child='./assets/presentations', cache=F}
+```
+
+ </div> <!-- END TAB CONTENT -->
+</div> <!-- END tabbable -->
+

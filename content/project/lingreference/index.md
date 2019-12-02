@@ -1,51 +1,19 @@
-+++
-# Project title.
-title = "lingreference.org"
-
-# Date this page was created.
-date = "2016-04-27"
-
-# Project summary to display on homepage.
-summary = "An online, crowd-sourced dictionary specializing in the fields of phonetics, phonology, syntax, and sociolinguistics."
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["dictionary", "lingreference"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
-#   `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides = ""
-
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
-
-# Does the project detail page use math formatting?
-math = true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
-  # Caption (optional)
-  caption = "Testing"
-  
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-+++
+---
+title: lingreference.org
+date: "2016-04-27"
+summary: An online, crowd-sourced dictionary specializing in the fields of phonetics, phonology, syntax, and sociolinguistics.
+tags: 
+- dictionary
+- lingreference
+image:
+  caption: lingreference.org
+  focal_point: Top
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+slides: ""
+---
 
 <iframe src="http://ghbtns.com/github-btn.html?user=lingreference&repo=lingreference.github.io&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:77px; height: 30px;" allowTransparency="true"></iframe>
 

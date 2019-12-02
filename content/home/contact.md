@@ -1,14 +1,12 @@
 +++
 # Contact widget.
 widget = "contact"
+headless = true
 active = true
-date = "2016-04-20T00:00:00"
+weight = 60
 
 title = "**Contact**"
 subtitle = ""
-
-# Order that this section will appear in.
-weight = 60
 
 # Automatically link email and phone?
 autolink = true
@@ -19,7 +17,3 @@ autolink = true
 #   2: formspree.io
 email_form = 0
 +++
-
-You can set up an appointment to meet with me 
-[here](https://jvcasillas.youcanbook.me/?noframe=true&skipHeaderFooter=true) 
-or use one of the methods below.

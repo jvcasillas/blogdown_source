@@ -1,6 +1,7 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
-<div class="container">
+{{- define "main" -}}
+
+<div class="universal-wrapper pt-3">
+
 
   <h1>Oh no!</h1>
   <p>We couldn't retrieve the page you are looking for.</p>
@@ -8,7 +9,12 @@
   <div align="center">
     <img width="500" src="http://www.jvcasillas.com/img/kino_maya.png">
   </div>
+ 
 
 </div>
-{{ partial "footer_container.html" . }}
-{{ partial "footer.html" . }}
+
+{{- end -}}
+
+
+
+

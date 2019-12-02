@@ -1,53 +1,25 @@
-+++
-# Project title.
-title = "R-Snippets"
-
-# Date this page was created.
-date = "2016-04-27"
-
-# Project summary to display on homepage.
-summary = "A collection of snippets that I use in SublimeText for doing statistical analysis in R"
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["r", "sublimetext", "snippets", "workflow"]
-
-# Optional external URL for project (replaces project detail page).
-external_link = ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
-#   `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides = ""
-
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
-
-# Does the project detail page use math formatting?
-math = true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
-  # Caption (optional)
-  caption = "R-Snippets"
-
-  preview_only = true
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Top"
-+++
+---
+title: R-Snippets
+date: "2016-04-27"
+summary: A collection of snippets that I use in SublimeText for doing statistical analysis in R
+tags:
+- r
+- sublimetext
+- snippets
+- workflow
+url_pdf: ""
+url_slides: ""
+url_video: ""
+url_code: ""
+image:
+  caption: R-Snippets
+  focal_point: Top
+links:
+- icon: link
+  icon_pack: fa
+  name: ""
+  url: https://sublime.wbond.net/packages/R-snippets
+---
 
 
 <iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&repo=R-snippets&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>

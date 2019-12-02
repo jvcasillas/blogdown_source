@@ -1,53 +1,26 @@
-+++
-# Project title.
-title = "LaTeX IPA"
-
-# Date this page was created.
-date = "2016-04-27"
-
-# Project summary to display on homepage.
-summary = "A collection of snippets for SublimeText that simplify the process of using IPA in LaTeX."
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["latex", "ipa", "sublimetext", "linguistics"]
-
-# Optional external URL for project (replaces project detail page).
-# external_link = ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references 
-#   `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides = ""
-
-# Links (optional).
-url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
-
-# Custom links (optional).
-#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://twitter.com/georgecushen"}]
-
-# Does the project detail page use math formatting?
-math = true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
-  # Caption (optional)
-  caption = "LaTeX-IPA"
-  
-  preview_only = true
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Top"
-+++
+---
+title: LaTeX IPA
+date: "2016-04-27"
+summary: A collection of snippets for SublimeText that simplify the process of using IPA in LaTeX.
+tags:
+- latex
+- ipa
+- sublimetext
+- linguistics
+image:
+  caption: LaTeX-IPA
+  focal_point: Top
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+links:
+- icon: link
+  icon_pack: fa
+  name: ""
+  url: http://www.jvcasillas.com/LaTeX-IPA
+slides: ""
+---
 
 <iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&repo=LaTeX-IPA&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>
 <iframe src="http://ghbtns.com/github-btn.html?user=jvcasillas&repo=LaTeX-IPA&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:130px; height: 30px;" allowTransparency="true"></iframe>

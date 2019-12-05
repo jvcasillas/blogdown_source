@@ -23,23 +23,21 @@ library(RefManageR)
 library(here)
 
 # Url to github repo
-fileUrl <- "https://raw.githubusercontent.com/jvcasillas/mybib/master/publicationsCVclean.bib"
+fileUrl <- "https://raw.githubusercontent.com/jvcasillas/mybib/master/publications_html.bib"
 
 # Download .bib file
 download.file(fileUrl,
-  destfile = here("static", "site_libs", "bib", "publicationsCVclean.bib"),
+  destfile = here("static", "site_libs", "bib", "publications_html.bib"),
   method = "curl")
 
 # Load bib
 bib <- ReadBib(
-  here("static", "site_libs", "bib", "publicationsCVclean.bib"), check = FALSE)
+  here("static", "site_libs", "bib", "publications_html.bib"), check = FALSE)
 
 # Set bib options
-BibOptions(bib.style = "authoryear", style = "html", max.names = 10, 
+BibOptions(bib.style = "authoryear", style = "text", max.names = 10, 
            first.inits = TRUE, check.entries = FALSE)
 ```
-
-
 
 
 

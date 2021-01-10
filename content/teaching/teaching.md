@@ -25,6 +25,7 @@ weight = 40
 - Beginning Spanish
 - Elementary Spanish
 - Intermediate Spanish
+- Introduction to Data Science
 - Introduction to the study of language
 - Introduction to Spanish Phonetics and Phonology
 - Introduction to Spanish Phonetics and Phonology for the Heritage Speaker
@@ -42,15 +43,18 @@ weight = 40
 - The phonetics/phonology of bilingualism
 - Data science for linguists
 - Research methods: Open science and reproducible research in Linguistics
+- Spanish Phonetics for Teachers
 
 
 ### Workshops
 
 - Spanish pronunciation workshop for beginners
-- Using PsychoPy2 for linguistic research
+- Using PsychoPy for linguistic research
 - Introduction to Praat
 - Introduction to R
 - LaTeX for linguists
+- Introduction to Open Science and Reproducible Research
+- Bayesian Data Analysis for Linguists
 
 
 

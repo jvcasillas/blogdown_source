@@ -77,7 +77,7 @@ user_groups: []
 
 ---
 
-I am an Assistant Professor of Hispanic Linguistics in the 
+I am an Assistant Professor of Spanish Linguistics in the 
 Spanish and Portuguese Department at Rutgers University, New 
 Brunswick. My main interests are in phonetics, laboratory 
 phonology, and second language acquisition. A principle aim of 
